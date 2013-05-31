@@ -1,0 +1,16 @@
+/*
+ *  maximaximal.com Stylesheet
+ *
+ *  Developed by maximaximal (Max Heisinger)
+ */
+
+#header {
+    padding-top: 150px;
+    margin-top: -30px;
+    width: 100%;
+    background-color: #73E1FF;
+}
+
+#main div.row {
+    margin-top: 50px;
+}

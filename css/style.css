@@ -37,10 +37,17 @@ body {
     margin-bottom: 50px;
 }
 
+
 #sidebar ul.nav {
     text-align: right;
     list-style: none;
     padding-left: 0px;
+	padding-right: 10px;
+	padding-bottom: 100%;
+	margin-right: 0px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #121212;
 }
 #sidebar ul.nav li {
     padding-bottom: 10px;

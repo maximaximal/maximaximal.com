@@ -25,6 +25,30 @@ body {
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
+#header h1 a {
+    text-shadow: 0px 2px 3px #555;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #222;
+    text-decoration: none;
+    -webkit-transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
+#header h1 a:hover {
+    text-shadow: 0px 2px 3px #BBB, 0px 2px 3px #555;
+    color: #111133;
+    -webkit-transition: all 1s ease-out;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-ms-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+}
 #header h2 {
     font-size: 3em;
     font-family: Georgia;
@@ -76,13 +100,41 @@ body {
     text-transform: uppercase;
     font-weight: 700;
 }
-#content p a {
+#content h2 {
+    color: #222;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+#content h2 a {
+    color: #222;
+    -webkit-transition: all 0.1s ease-out;
+	-moz-transition: all 0.1s ease-out;
+	-o-transition: all 0.1s ease-out;
+	-ms-transition: all 0.1s ease-out;
+	transition: all 0.1s ease-out;
+}
+#content h2 a:hover {
+    color: #222;
+    text-shadow: 0px 0px 2px #999;
+    -webkit-transition: all 0.1s ease-out;
+	-moz-transition: all 0.1s ease-out;
+	-o-transition: all 0.1s ease-out;
+	-ms-transition: all 0.1s ease-out;
+	transition: all 0.1s ease-out;
+
+}
+#content blockquote {
     color: #DEDEDE;
 }
-#content p a:hover {
+#content a {
+    text-decoration: none;
+    color: #DEDEDE;
+}
+#content a:hover {
     color: #FFF;
 }
-#content p a:visited {
-    color: #BBB;
+#content p a {
+    text-decoration: underline;
 }
 
